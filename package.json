@@ -1,0 +1,35 @@
+{
+  "name": "ws-broadcaster",
+  "version": "0.0.1",
+  "description": "Broadcasts received messages to connected clients.",
+  "main": "src/index.js",
+  "bin": {
+    "ws-broadcaster": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js --port 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhanazhan/ws-broadcaster.git"
+  },
+  "keywords": [
+    "websocket",
+    "broadcast"
+  ],
+  "author": "Jake Doe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhanazhan/ws-broadcaster/issues"
+  },
+  "homepage": "https://github.com/zhanazhan/ws-broadcaster#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "clear": "^0.1.0",
+    "cli-cursor": "^2.1.0",
+    "minimist": "^1.2.0",
+    "uuid": "^3.0.1",
+    "ws": "^3.3.1"
+  },
+  "devDependencies": {}
+}
